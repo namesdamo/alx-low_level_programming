@@ -1,1 +1,1 @@
-a C program that prints exactly
+a C program that prints
