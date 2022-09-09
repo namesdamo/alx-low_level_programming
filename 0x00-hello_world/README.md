@@ -1,1 +1,1 @@
-a C program that prints
+C program that prints
