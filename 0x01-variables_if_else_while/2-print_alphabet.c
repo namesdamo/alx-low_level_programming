@@ -3,28 +3,17 @@
 /**
  * main - print if the number is postive, zero, or negative
  *
- * Return: Always 0.
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 int main(void)
 {
-int digit1, digit2;
-
-for (digit1 = 0; digit1 < 9; digit1++)
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-for (digit2 = digit1 + 1; digit2 < 10; digit2++)
-{
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0');
-
-if (digit1 == 8 && digit2 == 9)
-continue;
-
-putchar(',');
-putchar(' ');
+putchar(ch);
 }
-}
-
 putchar('\n');
-
 return (0);
 }
