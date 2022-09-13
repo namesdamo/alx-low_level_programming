@@ -1,1 +1,1 @@
-a program that prints all the numbers of base
+a program that prints all possible
