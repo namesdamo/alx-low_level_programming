@@ -4,6 +4,7 @@
  * @dest: String that receives the append
  * @src:String to be append
  * @n: Number of bytes to be append from src
+ *
  * Return: dest (as a pointer).
  */
 char *_strncat(char *dest, char *src, int n)
@@ -20,4 +21,4 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 	return (dest);
-} 
+}
